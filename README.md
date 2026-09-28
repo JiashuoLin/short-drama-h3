@@ -46,9 +46,9 @@ cp -R short-drama-h3 ~/.codex/skills/short-drama-h3
 ### 1. 初始化项目
 
 ```bash
-python3 ~/.codex/skills/short-drama-h3/scripts/project_tool.py init ./my-project \\
-  --title "我的 H3 短剧" \\
-  --language zh \\
+python3 ~/.codex/skills/short-drama-h3/scripts/project_tool.py init ./my-project \
+  --title "我的 H3 短剧" \
+  --language zh \
   --aspect-ratio "9:16"
 ```
 
@@ -67,9 +67,9 @@ python3 ~/.codex/skills/short-drama-h3/scripts/project_tool.py init ./my-project
 ### 3. 运行离线检查
 
 ```bash
-python3 ~/.codex/skills/short-drama-h3/scripts/creator_markdown_check.py \\
-  ./my-project/剧集/EP001 \\
-  --project-root ./my-project \\
+python3 ~/.codex/skills/short-drama-h3/scripts/creator_markdown_check.py \
+  ./my-project/剧集/EP001 \
+  --project-root ./my-project \
   --level structure
 ```
 

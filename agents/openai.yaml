@@ -1,0 +1,4 @@
+interface:
+  display_name: "H3 分段短剧"
+  short_description: "用文件和命令行管理独立 H3 短剧的分段、多镜创作与素材交接"
+  default_prompt: "使用 $short-drama-h3 初始化或继续我的 H3 分段短剧项目，按当前资料推进已指定阶段。"
